@@ -1,0 +1,82 @@
+# ─────────────────────────────────────────────────────────────
+# Organizador Google Drive — config.yaml
+# ─────────────────────────────────────────────────────────────
+# Edite este arquivo ou use a aba Config na interface web.
+#
+# Como funciona:
+#   - Verifica se o NOME do arquivo contem a palavra-chave (case-insensitive)
+#   - Primeira regra que bater define o destino
+#   - Sem match -> pasta_arquivo_morto
+
+pastas_ignoradas:
+  - PromovaWeb
+
+pasta_arquivo_morto: "Arquivo Morto"
+
+regras:
+  Carreira:
+    - curriculo
+    - cv
+    - portfolio
+    - linkedin
+    - carta
+    - sindicato
+
+  Faculdade:
+    - aula
+    - atividade
+    - trabalho n2
+    - tcc
+    - faculdade
+    - unialfa
+    - desenvolvimento para internet
+    - governanca de ti
+    - banco de dados
+    - cobit
+    - offc
+    - classroom
+    - linguagens formais
+    - modelos fisicos
+    - prova
+    - historico
+    - referencial teorico
+    - resumo apresenta
+
+  Pessoal:
+    - cpf
+    - rg
+    - cnh
+    - certidao
+    - comprovante
+    - leticia
+    - alimentacao
+    - comprar
+    - carro
+    - treino
+    - myboy
+    - celular
+    - lugares
+    - missao morar
+    - pudim
+
+  Projetos Tecnicos:
+    - projetos
+    - projeto
+    - controle sites
+    - controle vendas
+    - mensagens clientes
+    - produto
+    - promocoes
+    - renderfarms
+    - index
+    - totvs
+
+  Midia e Entretenimento:
+    - video
+    - videos
+    - manga
+    - batida
+    - musica
+    - palworld
+    - myboy
+    - tachiyomi
