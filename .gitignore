@@ -1,0 +1,8 @@
+credentials.json
+token_drive.json
+plano_organizacao.json
+erros_organizacao.json
+erros_undo.json
+snapshots/
+__pycache__/
+*.pyc
